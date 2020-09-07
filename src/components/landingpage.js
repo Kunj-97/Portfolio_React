@@ -9,39 +9,39 @@ class Landing extends Component {
         <Grid className="landing-grid">
           <Cell col={12}>
             <img
-              src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+              src="https://www.dropbox.com/s/eij79cyde9ga51q/Kunj_avatar.png?raw=1"
+              
               alt="avatar"
               className="avatar-img"
               />
-
             <div className="banner-text">
-              <h1>Full Stack Web Developer</h1>
+              <h1>Full Stack  Developer</h1>
 
             <hr/>
 
-          <p>HTML/CSS | Bootstrap | JavaScript | React | React Native | NodeJS | Express | MongoDB</p>
+          <p>Java | Python | JavaScript | React | DevOps | NodeJS | Express | MongoDB  </p>
 
-        <div className="social-links">
+        <div className="social-links ">
 
           {/* LinkedIn */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
-            <i className="fa fa-linkedin-square" aria-hidden="true" />
+          <a href="www.linkedin.com/in/kunj-shah-39210a12b" rel="noopener noreferrer" target="_blank" >
+            <i className="fa fa-linkedin-square " aria-hidden="true"  />
           </a>
 
           {/* Github */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
-          </a>
+          </a> */}
 
           {/* Freecodecamp */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-free-code-camp" aria-hidden="true" />
-          </a>
+          </a> */}
 
           {/* Youtube */}
-          <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-youtube-square" aria-hidden="true" />
-          </a>
+          </a> */}
 
         </div>
             </div>
