@@ -19,12 +19,12 @@ class Landing extends Component {
 
             <hr/>
 
-          <p>Java | Python | JavaScript | React | DevOps | NodeJS | Express | MongoDB  </p>
+          <p>Java | Python | JavaScript | React | DevOps | NodeJS | AWS | MongoDB  </p>
 
         <div className="social-links ">
 
           {/* LinkedIn */}
-          <a href="www.linkedin.com/in/kunj-shah-39210a12b" rel="noopener noreferrer" target="_blank" >
+          <a href="https://www.linkedin.com/in/kunj-shah-39210a12b" rel="noopener noreferrer" target="_blank" >
             <i className="fa fa-linkedin-square " aria-hidden="true"  />
           </a>
 

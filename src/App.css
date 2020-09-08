@@ -16,6 +16,34 @@
   height: 100%;
 }
 
+.title-about {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 250px;
+  max-width: 80%;
+  background: #de2a6f;
+  opacity: 0.97;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+}
+
+.title-about h1 {
+  padding: 0px 60px;
+  text-align: center;
+  border-radius: 7px;
+  color: #ffffff;
+}
+.title-about h5 {
+  padding: 0px 60px;
+  text-align: center;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+
 .projects-grid {
   display: flex;
 }
@@ -104,13 +132,16 @@
 
 .social-links {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   width: 50%;
   margin: auto;
+  
 }
 
 .social-links i {
   color: white;
   font-size: 5em;
   padding: 8px;
+  
 }
