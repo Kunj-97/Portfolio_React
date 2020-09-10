@@ -1,19 +1,51 @@
-import React, { Component } from 'react';
+import React, { Component , useState } from 'react';
 import { Grid, Cell } from 'react-mdl';
 
 
-class Landing extends Component {
-  render() {
+const Landing = props => {
+  const [ darkMode , setDarkMode] =   useState(false)
+  const SwitchHandler = () => {
+    alert("qvc");
+  }
+  
+  const addStars =() =>
+  {
+
+    {
+      if (darkMode== true)
+      { return (<div id='stars'> <div id='stars2'> <div id='stars3'>  </div> </div> </div>
+                );   
+
+     }
+  }
+  }
+  console.log("avc",darkMode , setDarkMode);
     return(
+
       <div style={{width: '100%', margin: 'auto'}}>
-        <Grid className="landing-grid">
+        
+        <Grid className="landing-grid-dark-mode"   className= { darkMode ? "landing-grid-dark-mode" : "landing-grid-light-mode"}>
+        
           <Cell col={12}>
+            
+         
             <img
               src="https://www.dropbox.com/s/eij79cyde9ga51q/Kunj_avatar.png?raw=1"
               
               alt="avatar"
-              className="avatar-img"
+              className= "avatar-img"
+              
               />
+              {addStars()}
+              
+              
+              <div>
+                 <label class="switch">
+                  <input type="checkbox"/>
+                    <span class="slider round"  onClick= { () => setDarkMode (prevMode => ! prevMode)}></span>
+                    </label>
+                   
+                   </div>
             <div className="banner-text">
               <h1> Kunj Shah</h1>
               <h3> Full Stack  Developer</h3>
@@ -21,7 +53,7 @@ class Landing extends Component {
             <hr/>
 
           <p>Java | Python | JavaScript | React | DevOps | NodeJS | AWS | MongoDB  </p>
-
+        
         <div className="social-links ">
 
           {/* LinkedIn */}
@@ -50,7 +82,7 @@ class Landing extends Component {
         </Grid>
       </div>
     )
-  }
+  
 }
 
 export default Landing;
