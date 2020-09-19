@@ -62,9 +62,9 @@ const Landing = props => {
           </a>
 
           {/* Github */}
-          {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/Kunj-97" rel="noopener noreferrer" target="_blank">
             <i className="fa fa-github-square" aria-hidden="true" />
-          </a> */}
+          </a>
 
           {/* Freecodecamp */}
           {/* <a href="http://google.com" rel="noopener noreferrer" target="_blank">

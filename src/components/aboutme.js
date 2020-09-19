@@ -22,7 +22,7 @@ class About extends Component {
           <h5> I am a Highly Ambitious Master's Student in Computer Science with hands-on experience as a 
         Full Stack Developer. I have a sizeable experience in developing Java and Python projects along with developing websites using the MVC 
         architecture through JavaScript Frameworks( AngularJS, NodeJS, ReactJS ) paired with various Database Technologies. 
-        I also have worked on DevOps projects in my previous Intenrship Experiences.</h5>
+        I also have worked on DevOps projects in my previous Experiences.In my downtime I also develop full stack projects which you can find in my Github.</h5>
         </div>
         {/* <h1>About Page</h1>
       
